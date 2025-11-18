@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "tokyo-night-markets",
+        "title": "Tokyo Night Markets",
+        "thumbnail": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.6917, 35.6895]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "lisbon-hilltop-golden-hour",
+        "title": "Lisbon Hilltop Golden Hour",
+        "thumbnail": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1393, 38.7223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "cusco-high-altitude-market",
+        "title": "Cusco High-Altitude Market",
+        "thumbnail": "https://images.unsplash.com/photo-1509817316-839e0cfea5a1?auto=format&fit=crop&w=600&q=80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.9675, -13.5319]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "banff-icefields-traverse",
+        "title": "Banff Icefields Traverse",
+        "thumbnail": "https://images.unsplash.com/photo-1508264165352-258a6c44dc92?auto=format&fit=crop&w=600&q=80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.5708, 51.1784]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "marrakesh-sunset-rooftops",
+        "title": "Marrakesh Sunset Rooftops",
+        "thumbnail": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=600&q=80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.9811, 31.6295]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "sydney-harbor-sunrise",
+        "title": "Sydney Harbor Sunrise",
+        "thumbnail": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&w=600&q=80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.2093, -33.8688]
+      }
+    }
+  ]
+}

@@ -4,16 +4,21 @@ import './App.css'
 import Home from './components/Home'
 import About from './components/About'
 import NotFound from './components/NotFound'
+import Favorites from './components/Favorites'
+import PrimaryNav from './components/PrimaryNav'
 
-function App() {
-
-  return <HashRouter>
-    <Routes>
-      <Route path="/" element={<Home/>}></Route>
-      <Route path="/about" element={<About/>}></Route>
-      <Route path="*" element={<NotFound/>}></Route>
-    </Routes>
-  </HashRouter>
+function App () {
+  return (
+    <HashRouter>
+      <PrimaryNav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/favorites" element={<Favorites />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </HashRouter>
+  )
 }
 
 export default App
